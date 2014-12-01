@@ -22,8 +22,10 @@ A Craft plugin (Twig filter) to help with the output of HTML attributes.
   'data-qux': false,
 } %}
 
-<div {{ attrs|htmlAttrs }}></div>
+<div {{ attrs|htmlAttributes }}></div>
 ```
+
+`htmlAttributes` is also aliased to `htmlAttrs` for convenince.
 
 ### Output
 ```
