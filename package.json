@@ -1,0 +1,15 @@
+{
+  "name": "htmlattributes-craft",
+  "version": "1.0.0",
+  "description": "A Craft plugin (Twig filter) to help with the output of HTML attributes.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timkelty/htmlattributes-craft.git"
+  },
+  "author": "Tim Kelty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timkelty/htmlattributes-craft/issues"
+  },
+  "homepage": "https://github.com/timkelty/htmlattributes-craft"
+}
