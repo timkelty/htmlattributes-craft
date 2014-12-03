@@ -36,7 +36,7 @@ class HtmlAttributesTwigExtension extends \Twig_Extension
             } elseif(is_array($attrVal)) {
                 switch ($attrName) {
                     case 'class':
-                        $attrVal = implode(' ', $attrVal);
+                        $attrVal = implode(' ', array_filter($attrVal));
                         break;
 
                     case 'style':
